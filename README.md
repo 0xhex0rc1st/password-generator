@@ -1,20 +1,20 @@
-# Secure Password Generator 🔒
+# 🔐 Ultimate Password Generator - C++
 
-A C++ tool that generates cryptographically secure random passwords.
+## ✨ Features
+- **NSA-grade randomness** via `std::random_device` (C++17)
+- **Full customization**:
+  - 🔤 Uppercase/Lowercase letters
+  - 🔢 Numbers (0-9)
+  - ✨ Symbols (`!@#$%^&*`)
+  - ␠ Spaces
+  - 💝 Custom characters
+- **Zero dependencies** - Pure standard library
+- **Cross-platform** (Windows/Linux/macOS)
 
-## Features
-- Custom password length
-- Choose character sets:
-  - Lowercase/Uppercase letters
-  - Numbers
-  - Symbols
-  - Spaces
-  - Custom characters
+## 🚀 Quick Start
+```bash
+# Compile (GCC/Clang)
+g++ -std=c++17 -O3 password_generator.cpp -o passgen
 
-## How to Use
-1. Run the program
-2. Follow the interactive prompts
-3. Get your generated password
-
-## Requirements
-- Linux/macOS/Windows
+# Run
+./passgen
